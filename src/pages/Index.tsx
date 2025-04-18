@@ -4,14 +4,14 @@ import { ClassButton } from "@/components/ClassButton";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black px-4 relative overflow-hidden">
-      {/* Increased intensity light beam effect */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[50rem] h-[50rem] bg-gradient-radial from-white/40 via-white/20 to-transparent transform -translate-y-1/2 pointer-events-none blur-sm" />
+      {/* Light beam effect */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-gradient-radial from-white/20 via-white/5 to-transparent transform -translate-y-1/2 pointer-events-none" />
       
-      <h1 className="font-montserrat font-bold text-4xl md:text-6xl text-white mb-16 text-center relative z-10">
+      <h1 className="font-montserrat font-bold text-4xl md:text-6xl text-white mb-16 text-center relative">
         PHYSICS WALLAH
       </h1>
       
-      <div className="flex flex-col md:flex-row gap-6 md:gap-8 relative z-10">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-8 relative">
         <ClassButton
           className="bg-white text-black hover:bg-gray-100"
           label="Class 9"
@@ -33,3 +33,4 @@ const Index = () => {
 };
 
 export default Index;
+
