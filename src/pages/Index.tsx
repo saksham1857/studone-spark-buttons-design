@@ -1,4 +1,6 @@
 
+import { ClassButton } from "@/components/ClassButton";
+
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-white px-4">
