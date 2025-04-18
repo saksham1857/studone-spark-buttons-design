@@ -12,7 +12,7 @@ export const ClassButton = ({ className, label, subLabel }: ClassButtonProps) =>
   return (
     <Button
       className={cn(
-        "flex flex-col items-center justify-center w-64 h-24 text-white transition-all duration-300 transform hover:scale-105 hover:shadow-lg",
+        "flex flex-col items-center justify-center w-64 h-24 transition-all duration-300 transform hover:scale-105 hover:shadow-lg font-montserrat",
         className
       )}
     >
