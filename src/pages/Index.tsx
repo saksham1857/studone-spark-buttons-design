@@ -17,20 +17,25 @@ const Index = () => {
           label="Class 9"
           subLabel="Neev"
         />
-        <ClassButton
-          className="bg-white text-black hover:bg-gray-100"
-          label="Class 10"
-          subLabel="Udaan"
-        />
+        <a href="https://studone2.netlify.app" target="_blank" rel="noopener noreferrer">
+          <ClassButton
+            className="bg-white text-black hover:bg-gray-100"
+            label="Class 10"
+            subLabel="Udaan"
+          />
+        </a>
         <ClassButton
           className="bg-white text-black hover:bg-gray-100"
           label="Class 11"
           subLabel="Arjuna"
         />
       </div>
+
+      <div className="absolute bottom-4 right-4 text-white/60 text-sm font-montserrat">
+        -By Saksham Shree
+      </div>
     </div>
   );
 };
 
 export default Index;
-
