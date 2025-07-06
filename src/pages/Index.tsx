@@ -1,6 +1,5 @@
 
 import { ClassButton } from "@/components/ClassButton";
-import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -19,13 +18,13 @@ const Index = () => {
           subLabel="Neev"
           comingSoon={true}
         />
-        <Link to="/studone">
+        <a href="https://studone2.netlify.app" target="_blank" rel="noopener noreferrer">
           <ClassButton
             className="bg-white text-black hover:bg-green-500 hover:text-white"
             label="Class 10"
             subLabel="Udaan"
           />
-        </Link>
+        </a>
         <ClassButton
           className="bg-white text-black hover:bg-red-500 hover:text-white"
           label="Class 11"
