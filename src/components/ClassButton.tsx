@@ -6,9 +6,10 @@ interface ClassButtonProps {
   className?: string;
   label: string;
   subLabel: string;
+  comingSoon?: boolean;
 }
 
-export const ClassButton = ({ className, label, subLabel }: ClassButtonProps) => {
+export const ClassButton = ({ className, label, subLabel, comingSoon }: ClassButtonProps) => {
   return (
     <Button
       className={cn(
@@ -18,6 +19,9 @@ export const ClassButton = ({ className, label, subLabel }: ClassButtonProps) =>
     >
       <span className="text-xl font-semibold">{label}</span>
       <span className="text-sm opacity-90">{subLabel}</span>
+      {comingSoon && (
+        <span className="text-xs mt-1 font-medium">Coming Soon</span>
+      )}
     </Button>
   );
 };

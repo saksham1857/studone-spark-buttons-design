@@ -13,21 +13,23 @@ const Index = () => {
       
       <div className="flex flex-col md:flex-row gap-6 md:gap-8 relative">
         <ClassButton
-          className="bg-white text-black hover:bg-gray-100"
+          className="bg-white text-black hover:bg-red-500 hover:text-white"
           label="Class 9"
           subLabel="Neev"
+          comingSoon={true}
         />
         <a href="https://studone2.netlify.app" target="_blank" rel="noopener noreferrer">
           <ClassButton
-            className="bg-white text-black hover:bg-gray-100"
+            className="bg-white text-black hover:bg-green-500 hover:text-white"
             label="Class 10"
             subLabel="Udaan"
           />
         </a>
         <ClassButton
-          className="bg-white text-black hover:bg-gray-100"
+          className="bg-white text-black hover:bg-red-500 hover:text-white"
           label="Class 11"
           subLabel="Arjuna"
+          comingSoon={true}
         />
       </div>
 
